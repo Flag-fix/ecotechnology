@@ -170,6 +170,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
   z-index: 1;
   border-radius: 30px;
+  white-space: normal;
 }
 
 .btn-common:hover {
