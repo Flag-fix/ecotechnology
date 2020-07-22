@@ -7,8 +7,8 @@
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
@@ -4854,8 +4854,9 @@ button.close {
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: .3rem;
-    outline: 0
+    border-radius: 15px;
+    outline: 0;
+    margin-top: 200px;
 }
 
 .modal-backdrop {
@@ -4928,7 +4929,7 @@ button.close {
 
 @media (min-width:576px) {
     .modal-dialog {
-        max-width: 300px;
+        max-width: 500px;
         margin: 220px auto
     }
     .modal-sm {
